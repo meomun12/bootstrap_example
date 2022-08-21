@@ -1,0 +1,21 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.container {
+    box-sizing: border-box;
+}
+
+.navbar-branch {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+@media(min-width:768px) {
+    .news-input {
+        width: 50%;
+    }
+}
